@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+  height: 60%;
+  width: 60%;
+}
+.selector {
+  width: 50%;
+  border: #cbd2d9 2px solid;
+  text-align: center;
+}
+.option {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.question {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #323f4b;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #000000;
+}
+.country {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.question-container {
+  direction: flex;
+  flex-direction: row;
+  justify-content: start;
+}
